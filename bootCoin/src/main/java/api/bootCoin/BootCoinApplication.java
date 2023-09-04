@@ -1,13 +1,13 @@
-package api.bootcoin;
+package api.bootCoin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BootcoinApplication {
+public class BootCoinApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BootcoinApplication.class, args);
+		SpringApplication.run(BootCoinApplication.class, args);
 	}
 
 }
