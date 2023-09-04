@@ -49,6 +49,13 @@ logging:
   level:
     root: debug
 
+springdoc:
+  api-docs:
+    path: /api-bootCoin-docs
+  swagger-ui:
+    path: /swagger-ui-bootCoin.html
+    operationsSorter: method
+
 #Monitoreo con Actuator-Prometheus y Grafana.
 management:
   endpoints:
